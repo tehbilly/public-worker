@@ -1,0 +1,6 @@
+name = "public-worker"
+main = "./src/index.ts"
+compatibility_date = "2022-05-03"
+routes = [
+    { pattern = "worker.tehbilly.net", custom_domain = true, zone_name = "tehbilly.net" }
+]
